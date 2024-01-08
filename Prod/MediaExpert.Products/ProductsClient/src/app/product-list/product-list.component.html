@@ -1,0 +1,29 @@
+<div class="col">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products;index as i">
+        <td>
+          {{product.code}}
+        </td>
+          <td>
+            {{product.name}}
+          </td>
+          <td>
+            {{product.price}}
+          </td>
+          <td>
+                <a class="edit" title="Edit" data-toggle="tooltip"><i (click)="editClicked(i)"  class="fa fa-edit"></i></a>
+                <a class="delete ml-3" title="Delete" data-toggle="tooltip"><i (click)="deleteClicked(i)" class="fa fa-trash"></i></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>

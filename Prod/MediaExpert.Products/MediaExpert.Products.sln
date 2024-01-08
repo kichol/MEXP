@@ -23,18 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaExpert.Products.Api", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaExpert.Products.UnitTests", "MediaExpert.Products.UnitTests\MediaExpert.Products.UnitTests.csproj", "{166B8E0E-E3C0-4F36-9FB8-C87E939BC293}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{CFD644DA-102B-427B-8082-1FB11B34995F}"
-	ProjectSection(SolutionItems) = preProject
-		ProductsCatalog-client\.editorconfig = ProductsCatalog-client\.editorconfig
-		ProductsCatalog-client\.gitignore = ProductsCatalog-client\.gitignore
-		ProductsCatalog-client\angular.json = ProductsCatalog-client\angular.json
-		ProductsCatalog-client\package-lock.json = ProductsCatalog-client\package-lock.json
-		ProductsCatalog-client\package.json = ProductsCatalog-client\package.json
-		ProductsCatalog-client\README.md = ProductsCatalog-client\README.md
-		ProductsCatalog-client\tsconfig.app.json = ProductsCatalog-client\tsconfig.app.json
-		ProductsCatalog-client\tsconfig.json = ProductsCatalog-client\tsconfig.json
-		ProductsCatalog-client\tsconfig.spec.json = ProductsCatalog-client\tsconfig.spec.json
-	EndProjectSection
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{A3EB4E76-7889-4E5B-81FD-2C1B0DBEF3DF}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ProductsClient", "ProductsClient\ProductsClient.esproj", "{986F09AC-F2B0-4D8F-9F57-8E06BE598685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +53,12 @@ Global
 		{166B8E0E-E3C0-4F36-9FB8-C87E939BC293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166B8E0E-E3C0-4F36-9FB8-C87E939BC293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166B8E0E-E3C0-4F36-9FB8-C87E939BC293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,7 +72,7 @@ Global
 		{EC329DED-7318-4418-B9A5-78274BE9775E} = {33A56237-2312-431F-8089-F726010A60FC}
 		{892B2C1F-96AE-4294-BE67-72A4F1EB2AA8} = {BD9EBE06-A74E-4E60-8F80-A8A5591E5BAA}
 		{166B8E0E-E3C0-4F36-9FB8-C87E939BC293} = {E86891E2-B63A-4847-A10D-5845AE61BD1B}
-		{CFD644DA-102B-427B-8082-1FB11B34995F} = {A1979D6C-91B7-4977-9B3C-AB780FC3C3E4}
+		{986F09AC-F2B0-4D8F-9F57-8E06BE598685} = {A3EB4E76-7889-4E5B-81FD-2C1B0DBEF3DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC27DCCD-F822-419F-B089-520EDB85F6FC}
